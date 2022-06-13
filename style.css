@@ -1,0 +1,145 @@
+.body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:white;  
+    width: 100%   
+}
+.tophalf{
+    display: flex;
+    background-color: #F0F2F5;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+  
+}
+.logoside{
+margin-left: -10px;
+margin-top: -100px;
+}
+.logo img{
+    height: 110px;
+    margin-left: -35px;
+    margin-bottom: -50px;
+   
+}
+.caption p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    color: #1c1e21;
+   
+}
+
+
+.cardside a{
+    text-decoration: none;
+    color:#1c1e21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.cardside p{
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif ;
+}
+.whitebox{
+ 
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 0 28px;
+    width: 380px;
+    height: 350px;
+    padding: 20px;
+    
+}
+#username{
+    height: 50px;
+    width: 330px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;   
+    text-indent: 0.5em;
+    font-size: 17px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+#password {
+    height: 50px;
+    width: 330px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;   
+    text-indent: 0.5em;
+    font-size: 17px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
+}
+#login{
+    border: 1px solid #166fe5;
+    height: 50px;
+    width: 340px;
+    background-color: #166fe5;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.whitebox a{
+    text-decoration: none;
+    color: #1877f2;
+    margin-left: 90px;
+    font-size: 15px;
+    margin-bottom: 20px;  
+    font-weight: lighter;
+}
+#create-account{
+    background-color: #36a420;
+    color: white;
+    height: 50px;
+    width: 220px;
+    border: 1px solid #36a420;
+    font-size: large;
+    font-weight: bold;
+    font-family:SFProDisplay-Regular, Helvetica, Arial, sans-serif ;
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.bottomhalf{
+    margin-top: 20px;
+}
+.languages a{
+    text-decoration: none;
+    color:#8a8d91;
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 13px;
+}
+.links a{
+    text-decoration: none;
+    color:#8a8d91;
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 13px;
+}
+
+    
+
+.copyright{ 
+    color:#737373;
+    font-family: Helvetica, Arial, sans-serif ;
+    font-size: 12px;
+}
