@@ -8,8 +8,10 @@ box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:white;  
-    width: 100%   
+    background-color:white;   
+    width: 100%;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
 }
 .tophalf{
     display: flex;
@@ -142,4 +144,9 @@ margin-top: -100px;
     color:#737373;
     font-family: Helvetica, Arial, sans-serif ;
     font-size: 12px;
+}
+@media (max-width:1080px) {
+    .tophalf{
+         height: 80%;
+    width: 80%;}
 }
