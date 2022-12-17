@@ -140,13 +140,13 @@ form a
   .picside
   {
     width: 100%;
-    height: .5vh;
+    height: .6vh;
    justify-content: space-evenly;
    align-items: center;
   }
   .caption
   {
-    padding-left: 1.2em;
+    padding-left: 1em;
     font-weight: 400;
   }
   
@@ -164,7 +164,7 @@ form a
  {
     width: 100%;
     padding-left: 0;
-    height: 30vh;
+    height: 25vh;
     padding: 5px;
  }
 }
