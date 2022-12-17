@@ -45,8 +45,7 @@
 .caption
 {
     font-size: 2em;
-    font-weight: 500;
-   
+    font-weight: 500;   
 }
 
 .form
@@ -146,7 +145,7 @@ form a
     }
     .form
     {
-        width:80%;
+        width:90%;
     }
     .footer
     {
