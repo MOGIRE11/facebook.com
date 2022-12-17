@@ -130,7 +130,7 @@ form a
     text-decoration: underline;
 }
 
-@media (max-width:500px) {
+@media (max-width:768px ) and (orientation:landscape) {
   .top
   {
     flex-direction: column;
