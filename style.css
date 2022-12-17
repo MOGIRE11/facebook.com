@@ -138,13 +138,18 @@ form a
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        max-height: 100vh;
+        height: 120vh;
+        font-size: .8rem;
     }
     .picside{
         width: 100%;
     }
     .form
     {
-        width:50%;
+        width:80%;
+    }
+    .footer
+    {
+        width: 100%;
     }
 }
